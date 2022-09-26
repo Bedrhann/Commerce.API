@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.0" />
+    <PackageReference Include="NHibernate" Version="5.3.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\FinalProject.Application\FinalProject.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Paycore.FinalProject.Infrastructure\Paycore.FinalProject.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Paycore.FinalProject.Persistance\Paycore.FinalProject.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>

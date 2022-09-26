@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8FDF56AD-95F0-48A1-AC3B-618977D71066}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CAA2013D-CAF9-43F4-81B7-AADB5F9184B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProject.Application", "src\Core\FinalProject.Application\FinalProject.Application.csproj", "{5399FC4E-A531-481A-A97E-F1F5FDD11F1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paycore.FinalProject.Domain", "src\Core\Paycore.FinalProject.Domain\Paycore.FinalProject.Domain.csproj", "{7E261DD4-6390-4B3C-BB2E-D9D53B7F11DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5814117C-A139-46AB-9DA0-07AE7EF07D1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paycore.FinalProject.Infrastructure", "src\Infrastructure\Paycore.FinalProject.Infrastructure\Paycore.FinalProject.Infrastructure.csproj", "{9E8ADA89-E71F-4C30-84E0-CDDE7B8B3F2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paycore.FinalProject.Persistance", "src\Infrastructure\Paycore.FinalProject.Persistance\Paycore.FinalProject.Persistance.csproj", "{112DFA73-9AE3-4705-81C6-DF4587A94765}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C45F10FD-3DF1-440F-9C78-A46094EB9F46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paycore.FinalProject.API", "src\Presentation\Paycore.FinalProject.API\Paycore.FinalProject.API.csproj", "{793E2CE6-4FFF-4678-8D86-A59FA857DF90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7583F647-D0E8-4139-ACEA-C0ECE846CB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paycore.FinalProject.Tests", "Paycore.FinalProject.Tests\Paycore.FinalProject.Tests.csproj", "{A288B158-7944-4203-92E7-4302BFD0B281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5399FC4E-A531-481A-A97E-F1F5FDD11F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5399FC4E-A531-481A-A97E-F1F5FDD11F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5399FC4E-A531-481A-A97E-F1F5FDD11F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5399FC4E-A531-481A-A97E-F1F5FDD11F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E261DD4-6390-4B3C-BB2E-D9D53B7F11DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E261DD4-6390-4B3C-BB2E-D9D53B7F11DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E261DD4-6390-4B3C-BB2E-D9D53B7F11DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E261DD4-6390-4B3C-BB2E-D9D53B7F11DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8ADA89-E71F-4C30-84E0-CDDE7B8B3F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8ADA89-E71F-4C30-84E0-CDDE7B8B3F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8ADA89-E71F-4C30-84E0-CDDE7B8B3F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8ADA89-E71F-4C30-84E0-CDDE7B8B3F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112DFA73-9AE3-4705-81C6-DF4587A94765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112DFA73-9AE3-4705-81C6-DF4587A94765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112DFA73-9AE3-4705-81C6-DF4587A94765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112DFA73-9AE3-4705-81C6-DF4587A94765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793E2CE6-4FFF-4678-8D86-A59FA857DF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793E2CE6-4FFF-4678-8D86-A59FA857DF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793E2CE6-4FFF-4678-8D86-A59FA857DF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793E2CE6-4FFF-4678-8D86-A59FA857DF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A288B158-7944-4203-92E7-4302BFD0B281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A288B158-7944-4203-92E7-4302BFD0B281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A288B158-7944-4203-92E7-4302BFD0B281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A288B158-7944-4203-92E7-4302BFD0B281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAA2013D-CAF9-43F4-81B7-AADB5F9184B1} = {8FDF56AD-95F0-48A1-AC3B-618977D71066}
+		{5399FC4E-A531-481A-A97E-F1F5FDD11F1C} = {CAA2013D-CAF9-43F4-81B7-AADB5F9184B1}
+		{7E261DD4-6390-4B3C-BB2E-D9D53B7F11DB} = {CAA2013D-CAF9-43F4-81B7-AADB5F9184B1}
+		{5814117C-A139-46AB-9DA0-07AE7EF07D1D} = {8FDF56AD-95F0-48A1-AC3B-618977D71066}
+		{9E8ADA89-E71F-4C30-84E0-CDDE7B8B3F2E} = {5814117C-A139-46AB-9DA0-07AE7EF07D1D}
+		{112DFA73-9AE3-4705-81C6-DF4587A94765} = {5814117C-A139-46AB-9DA0-07AE7EF07D1D}
+		{C45F10FD-3DF1-440F-9C78-A46094EB9F46} = {8FDF56AD-95F0-48A1-AC3B-618977D71066}
+		{793E2CE6-4FFF-4678-8D86-A59FA857DF90} = {C45F10FD-3DF1-440F-9C78-A46094EB9F46}
+		{A288B158-7944-4203-92E7-4302BFD0B281} = {7583F647-D0E8-4139-ACEA-C0ECE846CB8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B49D600B-E6EC-4EF0-9B18-51CBBE0363E0}
+	EndGlobalSection
+EndGlobal
