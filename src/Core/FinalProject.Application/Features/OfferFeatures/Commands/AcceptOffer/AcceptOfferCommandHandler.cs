@@ -12,7 +12,7 @@ namespace FinalProject.Application.Features.OfferFeatures.Commands.AcceptOffer
     public class AcceptOfferCommandHandler : IRequestHandler<AcceptOfferCommandRequest, BaseResponse<OfferDto>>
     {
         private readonly IOfferQueryRepository _offerQueryRepository;
-        private readonly IOfferCommandRepository _offerCommandRepository;
+        private readonly IOfferCommandRepository _offerCommandRepository; 
         private readonly IProductCommandRepository _productCommandRepository;
 
         public AcceptOfferCommandHandler(IOfferQueryRepository offerQueryRepository, IOfferCommandRepository offerCommandRepository, IProductCommandRepository productCommandRepository)
